@@ -58,7 +58,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
 " automatic tag generation for edited files (slow, but very handy)
-Plug 'xolox/vim-easytags'
 Plug 'xolox/vim-misc'
 
 " Latex
@@ -76,7 +75,6 @@ Plug 'LaTeX-Box-Team/LaTeX-Box'
 
 " scala
 Plug 'derekwyatt/vim-scala'
-Plug 'ensime/ensime-vim'
 
 " ruby
 Plug 'vim-ruby/vim-ruby'

@@ -81,7 +81,6 @@ sbt() { (
 }
 alias on?='ping -c 1 8.8.8.8 && echo ":)" || echo ":("'
 
-alias vim="vim --servername vim-$$"
 alias va="vim ~/.zaliases"
 alias vv="vim ~/.vimrc"
 alias vvl="vim ~/.vimrc.local"
