@@ -53,9 +53,6 @@ bind2maps emacs viins vicmd -- -s '^[r' history-incremental-pattern-search-backw
 bind2maps emacs viins vicmd -- -s '^[[1;5A' history-substring-search-up
 bind2maps emacs viins vicmd -- -s '^[[1;5B' history-substring-search-down
 
-# custom bash completion
-autoload bashcompinit && bashcompinit
-
 # include functions and aliases
 include_all ~/.shfunctions/
 include ~/.zaliases.local
