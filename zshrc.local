@@ -46,14 +46,5 @@ fry git-onstage
 fry github-clone
 # fry print-expanded-alias
 
-# fzf now maps ctrl+r for history search, map it to alt+r, so it stays available
-bind2maps emacs viins vicmd -- -s '^[r' history-incremental-pattern-search-backward
-
-# ctrl-up and ctrl-down for substring search
-bind2maps emacs viins vicmd -- -s '^[[1;5A' history-substring-search-up
-bind2maps emacs viins vicmd -- -s '^[[1;5B' history-substring-search-down
-
 # include functions and aliases
-include_all ~/.shfunctions/
-include ~/.zaliases.local
 setxkbmap de
