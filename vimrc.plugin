@@ -58,6 +58,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
 " automatic tag generation for edited files (slow, but very handy)
+Plug 'xolox/vim-easytags'
 Plug 'xolox/vim-misc'
 
 " Latex

@@ -1,8 +1,9 @@
+setxkbmap  de
 # plugins
 include_all ~/.zsh/plugins
 # If not running interactively, do not do anything
-[[ $- != *i* ]] && return
-    [[ -z "$TMUX" ]] && exec tmux  -f ~/.tmux.conf
+#[[ $- != *i* ]] && return
+#    [[ -z "$TMUX" ]] && exec tmux  -f ~/.tmux.conf
 
 # load zgen
 source "${HOME}/.zgen/zgen.zsh"
@@ -22,6 +23,7 @@ if ! zgen saved; then
     # zgen load sindresorhus/pure # prompt
     zgen oh-my-zsh plugins/git
     zgen oh-my-zsh plugins/sudo 
+    zgen oh-my-zsh plugins/docker 
 # save all to init script
     zgen save
 fi
