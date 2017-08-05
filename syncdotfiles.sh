@@ -31,7 +31,7 @@ for file in $files; do
 done
 
 # Make zsh to your defualt shell
-chsh -s /bin/bash
+chsh -s /bin/zsh
 echo "Login into account again"
 su $USER
 
