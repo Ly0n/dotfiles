@@ -30,11 +30,3 @@ for file in $files; do
     ln -s $dir/$file ~/.$file
 done
 
-# Make zsh to your defualt shell
-chsh -s /bin/zsh
-echo "Login into account again"
-su $USER
-
-# Clone and Upgrade Vim Plugin
-echo "Installing Vim Plugins"
-vim +PlugInstall 
