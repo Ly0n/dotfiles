@@ -1,4 +1,3 @@
-setxkbmap  de
 # plugins
 include_all ~/.zsh/plugins
 # If not running interactively, do not do anything
@@ -48,5 +47,3 @@ fry git-onstage
 fry github-clone
 # fry print-expanded-alias
 
-# include functions and aliases
-setxkbmap de
