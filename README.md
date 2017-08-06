@@ -3,10 +3,10 @@
 Forked from Cornerman
 
 ## Install
-´´´bash    
+```bash    
 git clone --recursive https://github.com/Ly0n/dotfiles.git    
 cd dotfiles    
 sh syncdotfiles.sh    
 sh installpromptandfzf.sh    
 zsh    
-´´´
+```
