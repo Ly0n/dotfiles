@@ -396,3 +396,6 @@ include ~/.zshrc.local
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 include ~/.zaliases
+
+export PATH="/home/cy0/miniconda3/bin:$PATH"
+
