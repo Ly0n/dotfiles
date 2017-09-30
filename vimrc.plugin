@@ -27,8 +27,8 @@ Plug 'mbbill/undotree'
 
 " as-you-type completion system
 " Plug 'shougo/neocomplete.vim'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --racer-completer --clang-completer --system-libclang'}
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+"Plug 'Valloric/YouCompleteMe', { 'do': './install.py --racer-completer --clang-completer --system-libclang'}
+"Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 
 " show syntax/style errors
 " Plug 'scrooloose/syntastic'

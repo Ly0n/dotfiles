@@ -47,3 +47,5 @@ fry git-onstage
 fry github-clone
 # fry print-expanded-alias
 
+PATH=$PATH:~/func/
+
