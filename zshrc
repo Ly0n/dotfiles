@@ -397,5 +397,5 @@ include ~/.zshrc.local
 
 include ~/.zaliases
 
-export PATH="/home/cy0/miniconda3/bin:$PATH"
+#export PATH="/home/cy0/miniconda3/bin:$PATH"
 

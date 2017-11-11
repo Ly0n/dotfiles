@@ -1,8 +1,8 @@
 # plugins
 include_all ~/.zsh/plugins
 # If not running interactively, do not do anything
- [[ $- != *i* ]] && return
-    [[ -z "$TMUX" ]] && exec tmux  -f ~/.tmux.conf
+# [[ $- != *i* ]] && return
+#    [[ -z "$TMUX" ]] && exec tmux  -f ~/.tmux.conf
 
 # load zgen
 source "${HOME}/.zgen/zgen.zsh"
