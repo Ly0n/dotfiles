@@ -169,7 +169,6 @@ set wildmode=longest,list,full
 set wildignorecase
 
 " show invisible chars
-set listchars=tab:»·,trail:·,extends:…
 set list
 
 " % to also switch between begin/end
