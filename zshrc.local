@@ -1,51 +1,5 @@
 # plugins
-include_all ~/.zsh/plugins
 # If not running interactively, do not do anything
 # [[ $- != *i* ]] && return
 #    [[ -z "$TMUX" ]] && exec tmux  -f ~/.tmux.conf
-
-# load zgen
-source "${HOME}/.zgen/zgen.zsh"
-
-# check if there's no init script
-if ! zgen saved; then
-    echo "Creating a zgen save"
-
-    # plugins
-    zgen load zsh-users/zsh-syntax-highlighting
-    zgen load zsh-users/zsh-history-substring-search
-    zgen load b4b4r07/zsh-vimode-visual
-    zgen load Tarrasch/zsh-bd
-    zgen load dottr/dottr
-    zgen load rupa/z
-    # zgen load mafredri/zsh-async # for pure-prompt
-    # zgen load sindresorhus/pure # prompt
-    zgen oh-my-zsh plugins/git
-    zgen oh-my-zsh plugins/sudo 
-    zgen oh-my-zsh plugins/docker 
-# save all to init script
-    zgen save
-fi
-
-# use dottr
-fry completion
-fry alias-usage-analysis
-fry cd-git-root
-fry git-dirty-files-command
-fry cd-tmp
-fry git-select-commit
-fry interactive-mv
-fry mkdir-cd
-fry ncserve
-fry search-select-edit
-fry smart-cd
-fry wait-for-silence
-fry extract-archive
-NEO4J_QUERY_JSON_FORMATTER=json_pp
-fry neo4j-query
-fry git-onstage
-fry github-clone
-# fry print-expanded-alias
-
-PATH=$PATH:~/func/
 
