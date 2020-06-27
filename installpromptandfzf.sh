@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "Install vim and zsh"
+sudo apt install zsh vim git 
 # Make zsh to your defualt shell
 chsh -s /bin/zsh
 echo "Login into account again"
