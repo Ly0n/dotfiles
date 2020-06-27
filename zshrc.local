@@ -3,3 +3,4 @@
 # [[ $- != *i* ]] && return
 #    [[ -z "$TMUX" ]] && exec tmux  -f ~/.tmux.conf
 
+export PATH=$PATH:/usr/local/go/bin
