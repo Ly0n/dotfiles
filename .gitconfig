@@ -1,0 +1,31 @@
+[user]
+	email = ly0@protonmail.com
+	name = Tobias Augspurger
+	signingkey = [33B464A706160E9198CE49EBBC2A09E7A94221FC]
+[gpg]
+	program = gpg
+
+[pull]
+  ff = only
+  rebase = true
+
+[branch]
+  autosetuprebase = always
+
+[merge]
+  ff = only
+  ignore-space-change = true
+  conflictstyle = diff3 # this allows to show 3 panes in meld
+  tool = meld
+
+[rebase]
+  autoStash = true
+  autoSquash = true # useful for `git commit --fixup <hash>` (https://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html)
+
+[commit]
+  verbose = true # show diff when writing commit message
+
+[apply]
+  ignoreWhitespace = change # do not produce whitespace conflicts
+
+
