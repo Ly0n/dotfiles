@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "Install vim and zsh"
 sudo apt install zsh vim git 
+sudo apt install exuberant-ctags #needed on Ubuntu 24.04
 # Clone and Upgrade Vim Plugin
 echo "Installing Vim Plugins"
 vim +PlugInstall 

@@ -1,6 +1,7 @@
 # Dotfiles of Ly0n
 
 Forked from Cornerman
+Tested on Ubuntu 24.04
 
 ## Install
 ```bash    

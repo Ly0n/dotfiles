@@ -287,7 +287,7 @@ function! BackgroundToggle()
     elseif current == 'light'
         set background=dark
     endif
-endfunctio:n
+endfunction
 
 " toggle side effects on yank register when deleting/modifying text
 function! ToggleSideEffects()

@@ -4,7 +4,5 @@
 #    [[ -z "$TMUX" ]] && exec tmux  -f ~/.tmux.conf
 
 export PATH=$PATH:~/go/bin
-source /opt/ros/noetic/setup.zsh
-source ~/catkin_ws/devel/setup.zsh
 
 
